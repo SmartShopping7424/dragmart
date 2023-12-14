@@ -1,0 +1,91 @@
+.logo-screen {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.logo-image {
+  width: 15%;
+}
+
+.logo-text {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #6092f8;
+  font-weight: 600;
+}
+
+.logo-sub-text {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #f8955b;
+}
+
+/* When the browser is at least 1000px and above */
+@media screen and (min-width: 1000px) {
+  .logo-image {
+    width: 15%;
+  }
+  .logo-text {
+    font-size: 40px;
+  }
+  .logo-sub-text {
+    font-size: 20px;
+  }
+}
+
+/* When the browser is between 800px to 1000px */
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .logo-image {
+    width: 22%;
+  }
+  .logo-text {
+    font-size: 35px;
+  }
+  .logo-sub-text {
+    font-size: 18px;
+  }
+}
+
+/* When the browser is between 600px to 800px */
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .logo-image {
+    width: 29%;
+  }
+  .logo-text {
+    font-size: 30px;
+  }
+  .logo-sub-text {
+    font-size: 16px;
+  }
+}
+
+/* When the browser is between 400px to 600px */
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .logo-image {
+    width: 36%;
+  }
+  .logo-text {
+    font-size: 25px;
+  }
+  .logo-sub-text {
+    font-size: 14px;
+  }
+}
+
+/* When the browser is max 400px and less */
+@media screen and (max-width: 400px) {
+  .logo-image {
+    width: 43%;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+  .logo-sub-text {
+    font-size: 12px;
+  }
+}
